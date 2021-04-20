@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_one {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px;
+}
+
+.content_two {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px 50px 50px 40px;
+}
+
+.content_three {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+  padding: 50px 50px 50px 40px;
+}
+
+.content_one .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.content_two .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.content_three .btn {
+  color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.2em;
+  font: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-size: 15px;
+  font: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid #fff;
+  margin-top: 80px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
